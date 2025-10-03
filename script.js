@@ -1,6 +1,6 @@
-// Wow Chat Landing Page JavaScript
+// IRC Chat Landing Page JavaScript
 // Author: Professional Front-end Developer
-// Description: Interactive functionality for the Wow Chat landing page
+// Description: Interactive functionality for the IRC Chat landing page
 
 // Language translations
 const translations = {
@@ -13,7 +13,7 @@ const translations = {
         
         // Hero Section
         'hero-title-prefix': 'Connect Instantly with',
-        'hero-title-highlight': 'Wow Chat',
+        'hero-title-highlight': 'IRC Chat',
         'hero-description': 'Experience the future of messaging with lightning-fast delivery, end-to-end encryption, and seamless communication across all your devices.',
         'hero-download-btn': 'Download Now',
         'hero-learn-more': 'Learn More',
@@ -22,7 +22,7 @@ const translations = {
         'hero-stat-countries': 'Countries',
         
         // Features Section
-        'features-title': 'Why Choose Wow Chat?',
+        'features-title': 'Why Choose IRC Chat?',
         'features-subtitle': 'Discover the features that make communication effortless and enjoyable',
         'feature-fast-title': 'Lightning Fast',
         'feature-fast-desc': 'Send and receive messages instantly with our optimized infrastructure. No more waiting for messages to deliver.',
@@ -38,12 +38,12 @@ const translations = {
         'feature-sync-desc': 'Access your chats from any device. Everything syncs seamlessly across phone, tablet, and desktop.',
         
         // Preview Section
-        'preview-title': 'See Wow Chat in Action',
+        'preview-title': 'See IRC Chat in Action',
         'preview-subtitle': 'Experience the beautiful interface and smooth animations',
         'demo-contact-name': 'Sarah Wilson',
         'demo-status': 'Online',
         'demo-message-1': 'Hey! How\'s your day going? 😊',
-        'demo-message-2': 'Amazing! Just downloaded Wow Chat',
+        'demo-message-2': 'Amazing! Just downloaded IRC Chat',
         'demo-message-3': 'The interface is so clean! 🎉',
         'demo-team-name': 'Team Alpha',
         'demo-team-message': 'Great work on the project! 🎉',
@@ -58,8 +58,8 @@ const translations = {
         
         // Download Section
         'download-title': 'Ready to Start Chatting?',
-        'download-subtitle': 'Join millions of users who trust Wow Chat for their daily communication needs',
-        'download-btn-main': 'Download Wow Chat',
+        'download-subtitle': 'Join millions of users who trust IRC Chat for their daily communication needs',
+        'download-btn-main': 'Download IRC Chat',
         'download-version': 'Version 2.1.0 • 45MB',
         'download-free': 'Free to download',
         'download-no-ads': 'No ads or premium features',
@@ -83,7 +83,7 @@ const translations = {
         'footer-blog': 'Blog',
         'footer-careers': 'Careers',
         'footer-press': 'Press',
-        'footer-copyright': '© 2024 Wow Chat. All rights reserved.',
+        'footer-copyright': '© 2024 IRC Chat. All rights reserved.',
         'footer-privacy': 'Privacy Policy',
         'footer-terms': 'Terms of Service',
         'footer-cookies': 'Cookie Policy',
@@ -510,7 +510,7 @@ function triggerDownload() {
     // Create a download link for the app file
     const link = document.createElement('a');
     link.href = 'IRC.apk'; // This should be replaced with actual app file
-    link.download = 'wowchat-v2.1.0.apk';
+    link.download = 'IRCchat-v2.1.0.apk';
     link.style.display = 'none';
     
     document.body.appendChild(link);
@@ -1074,11 +1074,12 @@ document.head.appendChild(confettiStyle);
 
 // Console message for developers
 console.log(`
-🎉 Welcome to Wow Chat Landing Page!
+🎉 Welcome to IRC Chat Landing Page!
 👨‍💻 Built with modern web technologies
 🎨 Features responsive design and smooth animations
 💡 Try the Konami code for a surprise!
 📱 Download functionality ready for your app file
 
 Happy coding! 🚀
+
 `);
