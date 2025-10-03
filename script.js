@@ -510,7 +510,7 @@ function triggerDownload() {
     // Create a download link for the app file
     const link = document.createElement('a');
     link.href = 'IRC.apk'; // This should be replaced with actual app file
-    link.download = 'IRCchat-v2.1.0.apk';
+    link.download = 'IRC.apk';
     link.style.display = 'none';
     
     document.body.appendChild(link);
@@ -1083,3 +1083,4 @@ console.log(`
 Happy coding! 🚀
 
 `);
+
